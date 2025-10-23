@@ -1,0 +1,26 @@
+00: set rn: sets first input to second input where first input is a reg and second input is a num    
+01: set rr: sets first input to second input where first input is a reg and second input is a reg    
+02: set rm: sets first input to second input where first input is a reg and second input is a mem    
+03: set mr: sets first input to second input where first input is a mem and second input is a reg    
+04: set mn: sets first input to second input where first input is a mem and second input is a num    
+05: to rr: sets current line to the first input if the second input is FF where the first input is a reg and the second input is a reg     
+06: to rn: sets current line to the first input if the second input is FF where the first input is a reg and the second input is a num    
+07: to nr: sets current line to the first input if the second input is FF where the first input is a nn and the second input is a reg    
+08: to nn: sets current line to the first input if the second input is FF where the first input is a num and the second input is a num    
+09: eq rr: sets H to FF if the first input is equal to the second input where the first input is a reg and the second input is a reg    
+0A: eq rn: sets H to FF if the first input is equal to the second input where the first input is a reg and the second input is a num    
+0B: gt rr: sets H to FF if the first input is greater than the second input where the first input is a reg and the second input is a reg    
+0C: gt rn: sets H to FF if the first input is greater than the second input where the first input is a reg and the second input is a num    
+0D: gt nr: sets H to FF if the first input is greater than the second input where the first input is a nn and the second input is a reg    
+0E: not rr: sets the first input to not the second input where the first input is a reg and the second input is a reg    
+0F: not rn: sets the first input to not the second input where the first input is a reg and the second input is a num    
+10: and rr: sets the first input to the first input and the second input where both inputs are regs    
+11: and rn: sets the first input to the first input and the second input where first input is a reg and second input is a num    
+12: or rr: sets the first input to the first input or the second input where both inputs are regs    
+13: or rn: sets the first input to the first input or the second input where first input is a reg and second input is a num    
+14: xor rr: sets the first input to the first input xor the second input where both inputs are regs    
+15: xor rn: sets the first input to the first input xor the second input where first input is a reg and second input is a num    
+16: add rr: sets the first input to the first input + the second input and sets the second input to the carry where both inputs are regs    
+17: sub rr: sets the first input to the first input - the second input and sets the second input to the borrow where both inputs are regs    
+18: mul rr: sets the first input to the first input * the second input and sets the second input to the overflow where both inputs are regs    
+19: div rr: sets the first input to the first input // the second input and sets the second input to the remainder where both inputs are regs

@@ -1,0 +1,4 @@
+register: 8
+register size: 8 bits
+ram: 256 bytes
+dat all
