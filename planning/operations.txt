@@ -1,6 +1,6 @@
 00: set rn: sets first input to second input where first input is a reg and second input is a num    
-01: set rr: sets first input to second input where first input is a reg and second input is a reg    
-02: set rm: sets first input to second input where first input is a reg and second input is a mem    
+01: set rr: sets first input to second input where first input is a reg and second input is a reg
+02: set mm: sets () to ram[first input][second input]
 03: set mr: sets first input to second input where first input is a mem and second input is a reg    
 04: set mn: sets first input to second input where first input is a mem and second input is a num    
 05: to rr: sets current line to the first input if the second input is FF where the first input is a reg and the second input is a reg     
