@@ -1,3 +1,4 @@
-register: 8
+registers: 16
 register size: 8 bits
-ram: 256 bytes
+alu size: 8 bits
+ram: 65536(2^16) bytes
