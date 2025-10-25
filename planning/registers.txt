@@ -2,14 +2,10 @@
 02: B: gpr
 03: C: gpr
 04: D: gpr
-05: E: gpr
-06: F: gpr
-07: G: gpr
-08: H: gpr
-09: I: ram loader
-0A: J: to helper
-0B: K: line op
-0C: L: line in1
-0D: M: line in2
-0E: N: program counter
-0F: O: program counter
+05: I: ram loader
+06: J: to helper
+07: K: line op
+08: L: line in1
+09: M: line in2
+0A: N: program counter
+0B: O: program counter
